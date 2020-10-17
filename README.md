@@ -44,3 +44,22 @@ spring.mvc.view.suffix=.jsp
     <version>9.0.37</version>
 </dependency>
 
+API(Application Programmable Interface):-
+-----------------------------------------
+1. It is a set of rules that allow programs to talk to each other . The developer creates the API on the 
+   server and allows the client to talk to it
+
+2. With the help of API we can communicate with third party persons codes
+3. For example we use paytm transaction API in our website when user do some payment then our website code calls paytm website code for transaction and then we will get response 
+
+REST(Represential State Transfer):-
+-----------------------------------
+1. A set of constraints to be used for creating web services
+2. REST API is simply a sub set of API 
+3. It is the architecture for creating webstie , means there are some standard to create REST API
+4. REST API follow client-server , cachabled , stateless , layered
+5. Some important methods of HTTP are :-
+   GET : to get the resource
+   PUT : to update on resource
+   POST : create new resource
+   DELETE : to delete the resource
